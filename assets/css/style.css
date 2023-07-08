@@ -298,3 +298,198 @@ body{
   color: #635E58;
   font-size: 13px;
 }
+
+.degree-section{
+  width: 100%;
+  height: 800px;
+  background-image: url('../images/degree-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-shade{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.degree-card{
+  color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
+}
+
+.degree-card span{
+  color: #ecebeb !important;  
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.degree-card button{
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.question-list-wrap{
+  width: 100%;
+  height: max-content;
+  padding-block: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.question-wrap{
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.question-wrap.active .drop-wrap{
+  display: block;
+}
+
+.drop{
+  cursor: pointer;
+}
+
+.question-wrap.active ul li .title{
+  color: #E1AC0B;
+}
+
+.question-wrap.active ul li .drop i{
+  color: #E1AC0B;
+}
+
+.drop-wrap{
+  display: none;
+  font-size: 15px !important;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.popular-courses{
+  width: 100%;
+  height: max-content;
+  background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+.rate{
+  color: rgb(223, 89, 11);
+  display: flex;
+  gap: 5px;
+}
+
+.price{
+  color: red;
+}
+
+.course-side-show {
+  width: 100%;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.facts-section{
+  width: 100%;
+  height: max-content;
+  background-image: url('../images/courses.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-opacity{
+  width: 100%;
+  height: 100%;
+  padding-block: 100px;
+  background-color: rgba(24, 21, 21, .5);
+}
+
+.rate-card{
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(53, 51, 51, .7);
+}
+
+.fact-video {
+    text-align: center;
+    margin-left: 70px;
+    background-image: url('../images/video-item-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.fact-video img {
+    padding: 170px 0px;
+    max-width: 60px;
+}
+
+.form-section{
+  width: 100%;
+  height: max-content;
+  padding-block: 100px;
+  background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form-wrap{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.form-title{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form-wrap input{
+  border: none;
+  font-size: 13px;
+  outline: none;
+}
+
+.form-wrap textarea{
+  width: 100%;
+  resize: none;
+  border: none;
+  font-size: 13px;
+  outline: none;
+  margin-top: 20px;
+}
+
+.form-wrap button{
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer-section{
+  background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-top: 1px dotted #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 30px;
+  text-align: center;
+  color: #fff;
+}
